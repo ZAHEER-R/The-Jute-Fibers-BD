@@ -1,0 +1,926 @@
+
+
+
+/*--------------------------------------
+ Extra large devices (large desktops, 1200px and up)
+ */
+ @media (min-width: 1200px) {
+  /* ========== navbar ========== */
+    .mobile_menu {
+      display: none;
+    }
+    
+  /* ============= Jute ============= */
+  /* ==Why-jute== */
+    /*home-section*/
+    .right-sidebar {
+      padding-left: 3rem;
+    }
+    /* ============= About ============= */
+    /* faqs */
+    .faq_area {
+      padding-top: 50px;
+    }
+    /* ============= Activities ============= */
+    /* header section */
+    .tif_header .tif_nav {
+      right: 7%;
+      top: 50%;
+    }
+    /* ============= Blogs ============= */
+    /* navigation section */
+    .navigation_area .navigation_content {
+      padding: 30px 20px;
+    }
+    /* related post section */
+    .other_post .related_post {
+      padding: 30px 20px;
+    }
+ }
+
+
+ /*--------------------------------------
+Large devices (desktops, 992px and up)
+*/
+ @media (min-width: 992px) and (max-width: 1199px) {
+  /* ========== navbar ========== */
+  .mobile_menu {
+    display: none;
+  }
+  /* ============= Product ============= */
+   /* ==category item page== */
+   /* ===category Gallery=== */
+   .category-area .category-title p {
+     padding: 0px 7.8rem;
+   }
+
+   .category-area .single-category .card-body h5 a {
+     font-size: 15px;
+   }
+
+   .category-area .single-category .card {
+    padding: 20px;
+  }
+
+  .Product-video .video-title h1,
+  .Product-video .video-title h2 {
+    font-size: 23px !important;
+  }
+   /* ==Jute Sacking Bag Page== */
+   /* product-Gallery  */
+   .product-Gallery-area .Gallery-items .Gallery-title h2 {
+     font-size: 21px;
+   }
+   /* ============= About ============= */
+   /* Company Overview */
+   /* slider section */
+   .slider_area .owl-nav .owl-prev i {
+    top: 37%;
+    left: 10px;
+    transform: translate(50%, -50%);
+}
+.slider_area .owl-nav .owl-next i {
+    top: 37%;
+    right: 25px;
+    transform: translate(50%, -50%);
+}
+/* progress section */
+.progress_area .card {
+    padding: 20px;
+}
+/* target section */
+.target_area .target_text ul li:nth-child(4),
+.slider_area .target_text ul li:nth-child(6) {
+    align-items: flex-start !important;
+}
+.target_area .target_text li:nth-child(4) i,
+.slider_area .target_text li:nth-child(6) i {
+    margin-top: 7px;
+}
+/* ===== faqs ===== */
+    .faq_area {
+      padding-top: 50px;
+  }
+
+  /* ============= Activities ============= */
+  /* header section */
+  .tif_header .header_text h1 {
+    padding-left: 20px;
+}
+.tif_header .tif_nav {
+    right: 6%;
+    top: 50%;
+}
+/* about_tif section */
+.text_area_1 .top_text,
+.bottom_text {
+    padding: 0 150px 40px;
+}
+/* tif slider section */
+.tif_slider_area .owl-carousel {
+    padding: 0 58px;
+}
+.tif_slider_area .item img {
+    width: 100%;
+    height: 650px;
+}
+.tif_slider_area .owl-nav .owl-prev i {
+    left: 7% !important;
+    top: 43%;
+    transform: translate(70%, -50%);
+}
+.tif_slider_area .owl-nav .owl-next i {
+    right: 8.5% !important;
+    top: 43%;
+    transform: translate(70%, -50%);
+}
+
+   /* ============= Contact ============= */
+   /* ==Contact Us Section Start== */
+   .Contact-area .contact-item .contact-title p {
+     font-size: 17px;
+   }
+
+   .Contact-area .Contact-details .social-icon i {
+     width: 77px;
+     height: 77px;
+     line-height: 77px;
+   }
+
+   .Contact-area .contact-form .form-control {
+     line-height: 1.3;
+   }
+
+   /* ============= BLOG ============= */
+   /* navigation section */
+   .navigation_area .navigation_content {
+    padding: 30px 0;
+    margin: 0 20px;
+}
+/* related post section */
+.other_post .related_post {
+    padding: 30px 0;
+    margin: 0 20px;
+}
+.other_post .related_post .first_post a img,
+.other_post .related_post .second_post a img {
+    width: 300px;
+}
+
+ }
+
+ /*--------------------------------------
+Medium devices (tablets, 768px and up)
+*/
+ @media (min-width: 768px) and (max-width: 991px) {
+   /* ========== navbar ========== */
+   .desktop_menu {
+    display: none;
+  }
+
+  .section {
+    padding-top: 40px;
+  }
+
+  /* ======================= product ========================= */
+   /* ==category item page== */
+   /* Home Section */
+   .category-content {
+     align-items: start;
+     flex-direction: column;
+   }
+
+   /* ==category item page== */
+   /* ===category Gallery=== */
+
+   .category-area .category-title p {
+     padding: 0;
+   }
+
+   .category-area .single-category .card-body h5 a {
+    font-size: 18px;
+  }
+
+  .category-area .single-category .card {
+    padding: 23px;
+  }
+
+   /* ==Jute Sacking Bag Page== */
+   /* Home Section */
+   .product-Home {
+     position: relative;
+     padding: 50px 0;
+     letter-spacing: .4px;
+   }
+
+   .product-Home .home-item nav .breadcrumb {
+     position: absolute;
+     left: 5%;
+   }
+
+   /* ==Jute Sacking Bag Page== */
+   /* ==product-Gallery start== */
+   .product-Gallery-area .Gallery-content {
+     padding-right: 0;
+     border-right: 0;
+   }
+
+   .product-Gallery-area .right-sidebar {
+     padding: 50px 0;
+   }
+
+   /*==Geo-Texitile==*/
+    /* Home Section */
+    .product-Home {
+      padding: 50px 0;
+  }
+
+.product-Home .home-item nav .breadcrumb {
+  position: absolute;
+  left: 5%;
+}
+  /*geo-textile-Gallery*/
+.product-image .row{
+  margin: 20px;
+}
+
+  /* ==Jute-Charcoal==*/
+  /*Jute-charcoal-Gallery*/
+.product-Gallery-area .jute-stick-img{
+  height: 130px;
+  }
+
+   /* ============= Jute ============= */
+   /* ==Why-jute== */
+    /*home-section*/
+    .right-sidebar {
+      padding: 50px 0;
+    }
+    .why-jute-content{
+      border: none;
+    }
+  /*==history-of-jute==*/
+  /*home-section*/
+  .main-history{
+    border: none;
+  }
+
+  /*==properties-of-jute==*/
+  /*home-section*/
+  .properties-content{
+    border: none;
+  }
+  /* ===== About ===== */
+  /* company overview */
+    /* slider section */
+    .slider_area .owl-nav .owl-prev i {
+      top: 30%;
+      left: 10px;
+      transform: translate(50%, -50%);
+  }
+  .slider_area .owl-nav .owl-next i {
+      top: 30%;
+      right: 25px;
+      transform: translate(50%, -50%);
+  }
+  /* target section */
+  .target_area .target_text ul li:nth-child(1),
+  .target_area .target_text ul li:nth-child(4),
+  .slider_area .target_text ul li:nth-child(2),
+  .slider_area .target_text ul li:nth-child(6) {
+      align-items: flex-start !important;
+  }
+  .target_area .target_text li:nth-child(1) i,
+  .target_area .target_text li:nth-child(4) i,
+  .slider_area .target_text li:nth-child(2) i,
+  .slider_area .target_text li:nth-child(6) i {
+      margin-top: 7px;
+  }
+  /* ===== faqs ===== */
+  .faq_area {
+    padding-top: 50px;
+}
+.faq_area .faq_text {
+    padding: 0 20px;
+}
+
+  /* ============= Activities ============= */
+  /* header section */
+  .tif_header .header_text {
+    align-items: center;
+}
+.tif_header .header_text h1 {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.tif_header .tif_nav {
+    position: relative;
+    left: 3%;
+    top: 45%;
+}
+/* about_tif section */
+.text_area_1 .top_text,
+.bottom_text {
+    padding: 0 130px 40px;
+}
+/* tif slider section */
+.tif_slider_area .owl-carousel {
+    padding: 0 20px;
+}
+.tif_slider_area .item img {
+    width: 100%;
+    height: 460px;
+}
+.tif_slider_area .owl-nav .owl-prev i {
+    left: 5% !important;
+    top: 43%;
+    transform: translate(70%, -50%);
+}
+.tif_slider_area .owl-nav .owl-next i {
+    right: 7.5% !important;
+    top: 43%;
+    transform: translate(70%, -50%);
+}
+
+   /* ======================= contact ========================= */
+   /* ==Contact Us Section Start== */
+
+   .Contact-area .contact-item .contact-title p {
+     font-size: 18px;
+   }
+
+   .Contact-area .Contact-details {
+     padding-left: 0;
+     margin-top: 25px;
+   }
+
+   .Contact-area .contact-form .form-control {
+     line-height: 1.3;
+   }
+
+   /* ============= BLOG ============= */
+   /* header section */
+   .tif_header .tif_nav {
+    max-width: 80%;
+}
+/* home section */
+.blog_area .blog_img {
+    padding: 5px 0;
+}
+/* Navigation section */
+.navigation_area .row .col-lg-6 {
+    max-width: 50%;
+}
+/* related post section */
+.other_post .related_post .first_post a img,
+.other_post .related_post .second_post a img {
+    width: 250px;
+}
+
+   /* ===== NO NAME ===== */
+   .about-photo {
+    width: 20%;
+  }
+   /* ===== NO NAME ===== */
+
+ }
+
+ /*--------------------------------------
+Small devices (landscape phones, 576px and up)
+*/
+ @media (min-width: 576px) and (max-width: 767px) {
+  /* ========== navbar ========== */
+  .desktop_menu {
+    display: none;
+  }
+
+  .section {
+    padding-top: 40px;
+  }
+
+   /* ==The Jute Fiber== */
+   /* ======================= Index ========================= */
+   .main-home .home-content {
+     padding-left: 10px;
+     padding-right: 10px;
+   }
+   /* ======================= product ========================= */
+   /* ==category item page== */
+   /* Home Section */
+   .category-content {
+     align-items: start;
+     flex-direction: column;
+   }
+
+   /* ==category item page== */
+   /* ===category Gallery=== */
+
+   .category-area .category-title p {
+     padding: 0;
+     font-size: 15px;
+   }
+
+   .category-area .single-category .card-body h5 a {
+    font-size: 23px;
+  }
+
+   .category-area .single-category .card {
+    padding: 35px;
+  }
+
+
+   /* ===Jute Sacking Bag Page==== */
+   /* Home Section */
+   .product-Home {
+     position: relative;
+     padding: 50px 0;
+     letter-spacing: .4px;
+   }
+
+   .product-Home .home-item nav .breadcrumb {
+     position: absolute;
+     left: 5%;
+   }
+
+
+   /* ===Jute Sacking Bag Page==== */
+   /* product-Gallery Start*/
+   .product-Gallery-area .Gallery-items .Gallery-title h2 {
+     font-size: 20px;
+   }
+
+   .product-Gallery-area .Gallery-content {
+     padding-right: 0;
+     border-right: 0;
+   }
+
+   .product-Gallery-area .right-sidebar {
+     padding: 40px 0;
+
+   }
+   /* ===Geo-Textile==== */
+   /* Home Section */
+   .product-Home {
+    padding: 50px 0;
+  }
+
+  .product-Home .home-item nav .breadcrumb {
+    position: absolute;
+    left: 5%;
+  }
+
+  /* ===Geo-Textile==== */
+  /* geo-textile- Start*/
+  .product-image{
+    margin: 40px;
+  }
+  .product-Gallery-area .Gallery-items .Gallery-title h2 {
+    font-size: 20px;
+  }
+
+
+  .product-Gallery-area .Gallery-content {
+    padding-right: 0;
+    border-right: 0;
+  }
+
+  .product-Gallery-area .right-sidebar {
+    padding: 40px 0;
+  }
+
+   /* ========== Jute ========== */
+   /* ==Why-jute== */
+    /*home-section*/
+.why-jute-content{
+  border: none;
+}
+img{
+  width: 100%;
+}
+.right-sidebar {
+  padding: 50px 0;
+}
+
+  /*==history-of-jute==*/
+  /*home-section*/
+.img_10{
+  width: auto;
+}
+.main-history{
+  border: none;
+}
+
+   /* ===== About ===== */
+    /* company overview */
+    /* header section */
+    .header.bg_image {
+      height: auto !important;
+  }
+  .about_us_header .header_title {
+      top: 50%;
+      transform: translate(0, 0%);
+  }
+  .about_us_header .header_title h1 {
+      font-size: 24px;
+  }
+  .about_us_header .header_title .sub_title {
+      font-size: 14px;
+  }
+  /* slider section */
+  .slider_area .owl-nav .owl-prev i {
+      top: 35%;
+      left: 10px;
+      transform: translate(50%, -50%);
+  }
+  .slider_area .owl-nav .owl-next i {
+      top: 35%;
+      right: 25px;
+      transform: translate(50%, -50%);
+  }
+  .slider_area .col-lg-6 .common_heading_title {
+      text-align: center;
+  }
+  .slider_area.second_slider .common_heading_title {
+      text-align: left;
+  }
+  .slider_area .owl-carousel  {
+      padding-bottom: 30px;
+  }
+  /* progress section */
+  .progress_area .progress_header p {
+      padding-right: 1rem!important;
+      padding-left: 1rem!important;
+  }
+  /* target section */
+  .target_area .target_text.mission {
+      margin-bottom: 80px;
+  }
+  /* ===== faqs ===== */
+  .faq_area {
+    padding-top: 50px;
+}
+.faq_area .faq_text {
+    padding: 0 10px;
+}
+
+  /* ============= Activities ============= */
+  /* header section */
+  .tif_header .header_text {
+    align-items: center;
+}
+.tif_header .header_text h1 {
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+.tif_header .tif_nav {
+    position: relative;
+    left: 1%;
+    top: 45%;
+}
+/* about_tif section */
+.text_area_1 .top_text,
+.bottom_text {
+    padding: 0 8px 40px;
+}
+/* tif slider section */
+.tif_slider_area .owl-carousel {
+    padding: 0 10px;
+}
+.tif_slider_area .item img {
+    width: 100%;
+    height: 320px;
+}
+.tif_slider_area .owl-nav .owl-prev i {
+    left: 5% !important;
+    top: 43%;
+    transform: translate(70%, -50%);
+}
+.tif_slider_area .owl-nav .owl-next i {
+    right: 8.5% !important;
+    top: 43%;
+    transform: translate(70%, -50%);
+}
+
+/* ============= NEWS ============= */
+/* header section */
+.news_header .news_title h1 {
+  font-size: 24px;
+}
+
+/* ======================= Contact ========================= */
+   /* ==Contact Us Section Start== */
+   .Contact-area .contact-item .contact-title p {
+     font-size: 17px;
+   }
+
+   .Contact-area .Contact-details {
+     padding-left: 0;
+     margin-top: 25px;
+   }
+
+   .Contact-area .contact-form .form-control {
+     line-height: 1.3;
+   }
+   
+   /* ============= BLOG ============= */
+   /* header section */
+   .tif_header .tif_nav {
+    max-width: 100%;
+}
+/* home section */
+.blog_area .blog_img {
+    padding: 5px 0;
+}
+/* Navigation section */
+.navigation_area .row .col-lg-6 {
+    max-width: 50%;
+}
+/* related post section */
+.other_post .related_post .post_body {
+    display: block;
+}
+.other_post .related_post .post_image {
+    margin: 30px 0 0 27px;
+}
+.other_post .related_post .first_post a img,
+.other_post .related_post .second_post a img {
+    width: 100%;
+}
+/* form section */
+.form_area .form_content .form .input {
+    width: 100%;
+}
+.form_area .form_content .form .input.mx-3 {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.form_area .form_content .form .checkbox.align-self-center {
+    align-self: start !important;
+    margin-top: 5px;
+}
+
+   /* NO NAME */
+   .about-photo{
+    width: 50%;
+    text-align: left;
+  }
+   /* NO NAME */
+ }
+
+ /*--------------------------------------
+Extra small devices (portrait phones, less than 576px)
+*/
+ @media (max-width: 575px) {
+  /* ========== navbar ========== */
+  .desktop_menu {
+    display: none;
+  }
+
+  .section {
+    padding: 30px 20px 20px;
+  }
+   /* ==The Jute Fiber== */
+   /* ======================= Index ========================= */
+   .main-home .home-content {
+     padding-left: 10px;
+     padding-right: 10px;
+   }
+   /* ======================= product ========================= */
+   /* ==category item page== */
+   /* Home Section */
+   .category-content {
+     align-items: start;
+     flex-direction: column;
+   }
+
+   /* ==category item page== */
+   /* ===category Gallery=== */
+
+   .category-area .category-title p {
+     padding: 0;
+   }
+
+   .category-area .single-category .card-body h5 a {
+    font-size: 28px;
+  }
+
+  .category-area .single-category .card {
+    padding: 35px;
+  }
+
+   /* ===Jute Sacking Bag Page==== */
+   /* Home Section*/
+   .product-Home {
+     background-color: #2e3b42;
+     position: relative;
+     padding: 25px 0;
+     letter-spacing: .4px;
+   }
+
+   .product-Home .home-item nav .breadcrumb {
+     position: inherit;
+     max-width: 100%;
+     margin-top: 6px;
+     margin-left: 14px;
+   }
+
+
+   /* ===Jute Sacking Bag Page==== */
+   /* product-Gallery */
+   .product-Gallery-area .Gallery-items .Gallery-title h2 {
+     font-size: 22px !important;
+   }
+
+   .product-Gallery-area .Gallery-content {
+     padding-right: 0;
+     border-right: 0;
+   }
+
+   .product-Gallery-area .product-image .col-sm-6 {
+     width: 50%;
+   }
+
+   .product-Gallery-area .right-sidebar {
+     padding: 30px 0;
+   }
+
+   /* ========== Jute ========== */
+    /* ==Why-jute== */
+    /*home-section*/
+.why-jute-content{
+  border: none;
+}
+
+.right-sidebar{
+   padding: 50px 0;
+}
+   /*==history-of-jute==*/
+   /*home-section*/
+.main-history{
+   padding: 10px !important;
+   border: none;
+}
+   /*==properties-of-jute==*/
+   /*home-section*/
+   .right-sidebar {
+       padding-left: 1rem !important;
+     }
+
+   /* ===== About ===== */
+    /* company overview */
+    /* header section */
+    .header.bg_image {
+      height: auto !important;
+  }
+  .about_us_header .header_title {
+      top: 50%;
+      transform: translate(0, 0%);
+  }
+  .about_us_header .header_title h1 {
+      font-size: 24px;
+  }
+  .about_us_header .header_title .sub_title {
+      font-size: 14px;
+  }
+  /* slider section */
+  .slider_area .owl-nav .owl-prev i {
+      top: 35%;
+      left: 10px;
+      transform: translate(50%, -50%);
+  }
+  .slider_area .owl-nav .owl-next i {
+      top: 35%;
+      right: 25px;
+      transform: translate(50%, -50%);
+  }
+  .slider_area .col-lg-6 .common_heading_title {
+      text-align: center;
+  }
+  .slider_area.second_slider .common_heading_title {
+      text-align: left;
+  }
+  .slider_area .owl-carousel  {
+      padding-bottom: 30px;
+  }
+  /* progress section */
+  .progress_area .progress_header p {
+      padding-right: 1rem!important;
+      padding-left: 1rem!important;
+  }
+  /* target section */
+  .target_area .target_text.mission {
+      margin-bottom: 80px;
+  }
+  /* ===== faqs ===== */
+  .faq_area {
+    padding-top: 50px;
+}
+.faq_area .faq_text {
+    padding: 0 8px;
+}
+
+    /* ============= Activities ============= */
+    /* header section */
+    .tif_header .header_text {
+      align-items: center;
+  }
+  .tif_header .header_text h1 {
+      padding-left: 15px;
+      margin-bottom: 20px;
+  }
+  .tif_header .tif_nav {
+      position: relative;
+      left: 3%;
+      top: 45%;
+  }
+  /* about_tif section */
+  .text_area_1 .top_text,
+  .bottom_text {
+      padding: 0 8px 20px;
+  }
+  /* tif slider section */
+  .tif_slider_area .owl-carousel {
+      padding: 0 10px;
+  }
+  .tif_slider_area .item img {
+      width: 100%;
+      height: 320px;
+  }
+  .tif_slider_area .owl-nav .owl-prev i {
+      left: 5% !important;
+      top: 43%;
+      transform: translate(70%, -50%);
+  }
+  .tif_slider_area .owl-nav .owl-next i {
+      right: 8.5% !important;
+      top: 43%;
+      transform: translate(70%, -50%);
+  }
+
+  /* ============= NEWS ============= */
+  /* header section */
+  .news_header .news_title h1 {
+    font-size: 24px;
+  }
+
+   /* ======================= Contact ========================= */
+   /* ==Contact Us Section Start== */
+   .Contact-area .contact-item .contact-title p {
+     font-size: 17px;
+   }
+   
+   .Contact-area .Contact-details {
+     padding-left: 0;
+     margin-top: 25px;
+   }
+
+   .Contact-area .contact-form .form-control {
+    line-height: 1.3;
+  }
+   
+  /* ============= BLOG ============= */
+  /* header section */
+  .tif_header .tif_nav {
+    max-width: 100%;
+}
+/* home section */
+.blog_area .blog_img {
+    padding: 5px 0;
+}
+/* Navigation section */
+.navigation_area .row .col-lg-6 {
+    max-width: 50%;
+}
+/* related post section */
+.other_post .related_post .post_body {
+    display: block;
+}
+.other_post .related_post .post_image {
+    margin: 30px 0 0 27px;
+}
+.other_post .related_post .first_post a img,
+.other_post .related_post .second_post a img {
+    width: 100%;
+}
+/* form section */
+.form_area .form_content .form .input {
+    width: 100%;
+}
+.form_area .form_content .form .input.mx-3 {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.form_area .form_content .form .checkbox.align-self-center {
+    align-self: start !important;
+    margin-top: 5px;
+}
+
+   /* NO NAME */
+   .about-photo {
+    width: 50%;
+  }
+   /* NO NAME */
+ }
+
+
+ /* ================================================================================ */
